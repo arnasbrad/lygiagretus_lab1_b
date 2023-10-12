@@ -212,7 +212,6 @@ void printResults(sortedResultMonitor data) {
 
 int main(int argc, char *argv[]) {
   string fileName = argv[1];
-  string resultFile = "output/IFF1-1_BradauskasA_L1_rez.txt";
 
   int sunsetCount = 25;
   sortedResultMonitor results(100);
@@ -252,8 +251,8 @@ int main(int argc, char *argv[]) {
   }
 
   printResults(results);
-    printf("%d \n", sumInt);
-    printf("%f \n", sumDouble);
+  printf("%d \n", sumInt);
+  printf("%f \n", sumDouble);
 
   return 0;
 }
