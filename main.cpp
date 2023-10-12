@@ -1,14 +1,10 @@
 #include "fort.h"
-#include <cmath>
-#include <cstdio>
 #include <curl/curl.h>
 #include <fstream>
-#include <iomanip>
 #include <iostream>
 #include <nlohmann/json.hpp>
 #include <omp.h>
 #include <string>
-#include <vector>
 
 using namespace std;
 
