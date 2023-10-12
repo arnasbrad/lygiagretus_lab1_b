@@ -8,7 +8,7 @@ sudo apt install nlohmann-json3-dev
 sudo apt-get install libcurl4-openssl-dev
 ```
 
-# Usage:
+## Usage:
 ```bash
 g++ main.cpp fort.c -fopenmp -lcurl
 ./a.out <input_file_path>
